@@ -1,0 +1,98 @@
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.Select-control {
+    margin-bottom: 20px;
+}
+
+.unordered-list {
+    font-size: 20px;
+    font-family: 'Georgia', serif;
+}
+
+@media (min-width: 500px) {
+    .container {
+        width: 85%;
+        padding: 0;
+    }
+}
+
+@media (min-width: 750px) {
+    .container {
+        width: 80%;
+    }
+
+    .column,
+    .columns {
+        margin-left: 4%;
+    }
+
+
+    .column {
+        padding: 0;
+        box-shadow: 4px 4px 2px lightgrey;
+        background: #FFFFFFFF
+    }
+
+    /*-------Columns-------*/
+    .six.columns {
+        width: 48%;
+    }
+
+    .twelve.columns {
+        width: 98%;
+    }
+
+}
+
+.column,
+.columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2% 4% 4%;
+    background: #F3F3F1;
+}
+
+.pretty_container {
+    border-radius: 5px;
+    background-color: #ffffff; /* Mapbox light map land color */
+    margin: 1%;
+    padding: 1%;
+    position: relative;
+    box-shadow: 4px 4px 2px slategrey;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    display: block;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    border-radius: 2px;
+    display: block;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8D8D8D70;
+}
